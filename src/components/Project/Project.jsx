@@ -8,9 +8,20 @@ import img5 from '../../assets/img5.png';
 import img6 from '../../assets/img6.png';
 import img7 from '../../assets/img7.png';
 import img8 from '../../assets/img8.png';
+import img9 from '../../assets/img9.png';
 import { useState } from 'react';
 
 const cards = [
+  {
+    id: 10,
+    img: img9,
+    title: 'GYM Website',
+    category: 'frontend',
+    links: [
+      { text: 'Demo', url: 'https://gym-website-react-green.vercel.app/' },
+      { text: 'Code', url: 'https://github.com/VitorLucasX/gym_website_react' }
+    ]
+  },
   {
     id: 1,
     img: img3,
