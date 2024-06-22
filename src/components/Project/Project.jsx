@@ -7,6 +7,7 @@ import img4 from '../../assets/img4.png';
 import img5 from '../../assets/img5.png';
 import img6 from '../../assets/img6.png';
 import img7 from '../../assets/img7.png';
+import img10 from '../../assets/img10.png';
 import img8 from '../../assets/img8.png';
 import img9 from '../../assets/img9.png';
 import { useState } from 'react';
@@ -93,11 +94,11 @@ const cards = [
   },
   {
     id: 8,
-    img: img7,
+    img: img10,
     title: 'Star Colchões',
     category: 'uxui',
     links: [
-      { text: 'Code', url: 'https://github.com/VitorLucasX/api-controle-veiculos' }
+      { text: 'Demo', url: 'https://www.figma.com/community/file/1386389920631017451' }
     ]
   },
   {
