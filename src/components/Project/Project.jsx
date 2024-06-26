@@ -10,9 +10,20 @@ import img7 from '../../assets/img7.png';
 import img10 from '../../assets/img10.png';
 import img8 from '../../assets/img8.png';
 import img9 from '../../assets/img9.png';
+import img11 from '../../assets/img11.png';
 import { useState } from 'react';
 
 const cards = [
+  {
+    id: 11,
+    img: img11,
+    title: 'Restaurante',
+    category: 'fullstack',
+    links: [
+      { text: 'Demo', url: 'https://restaurante-fullstack.vercel.app/' },
+      { text: 'Code', url: 'https://github.com/VitorLucasX/restaurante_fullstack' }
+    ]
+  },
   {
     id: 10,
     img: img9,
@@ -76,7 +87,7 @@ const cards = [
   {
     id: 6,
     img: img5,
-    title: 'Adress Registration',
+    title: 'API Registro de Endereços',
     category: 'backend',
     links: [
       { text: 'Demo', url: 'https://ecommerce-nike-react.vercel.app/' },
@@ -90,6 +101,15 @@ const cards = [
     category: 'backend',
     links: [
       { text: 'Code', url: 'https://github.com/VitorLucasX/api-controle-veiculos' }
+    ]
+  },
+  {
+    id: 12,
+    img: img8,
+    title: 'API Monitoramente Funcionários',
+    category: 'backend',
+    links: [
+      { text: 'Code', url: 'https://github.com/VitorLucasX/api_iniflex' }
     ]
   },
   {
@@ -130,6 +150,9 @@ const Project = () => {
             </div>
             <div className={`filtro__item ${filter === 'frontend' ? 'active' : ''}`} onClick={() => handleFilter('frontend')}>
                 Frontend
+            </div>
+            <div className={`filtro__item ${filter === 'fullstack' ? 'active' : ''}`} onClick={() => handleFilter('fullstack')}>
+                Fullstack
             </div>
             <div className={`filtro__item ${filter === 'backend' ? 'active' : ''}`} onClick={() => handleFilter('backend')}>
                 Backend

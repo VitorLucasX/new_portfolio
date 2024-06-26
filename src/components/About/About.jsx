@@ -1,5 +1,5 @@
 import './about.css';
-import CV from "../../assets/CurriculoVitorPDF.pdf";
+import CV from "../../assets/CurriculoVitorLucasPDF.pdf";
 import AboutImg from "../../assets/programming.png";
 import Info from './Info';
 import { IoCloudDownloadOutline } from 'react-icons/io5';
