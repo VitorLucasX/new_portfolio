@@ -11,6 +11,7 @@ import img10 from '../../assets/img10.png';
 import img8 from '../../assets/img8.png';
 import img9 from '../../assets/img9.png';
 import img11 from '../../assets/img11.png';
+import img13 from '../../assets/img13.jpg';
 import { useState } from 'react';
 
 const cards = [
@@ -85,16 +86,6 @@ const cards = [
     ]
   },
   {
-    id: 6,
-    img: img5,
-    title: 'API Registro de Endereços',
-    category: 'backend',
-    links: [
-      { text: 'Demo', url: 'https://ecommerce-nike-react.vercel.app/' },
-      { text: 'Code', url: 'https://github.com/VitorLucasX/address-registration' }
-    ]
-  },
-  {
     id: 7,
     img: img8,
     title: 'API Controle de Veículos',
@@ -105,11 +96,21 @@ const cards = [
   },
   {
     id: 12,
-    img: img8,
-    title: 'API Monitoramente Funcionários',
+    img: img13,
+    title: 'API Controle de Funcionários',
     category: 'backend',
     links: [
       { text: 'Code', url: 'https://github.com/VitorLucasX/api_iniflex' }
+    ]
+  },
+  {
+    id: 6,
+    img: img5,
+    title: 'API Registro de Endereços',
+    category: 'backend',
+    links: [
+      { text: 'Demo', url: 'https://ecommerce-nike-react.vercel.app/' },
+      { text: 'Code', url: 'https://github.com/VitorLucasX/address-registration' }
     ]
   },
   {
