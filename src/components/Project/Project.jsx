@@ -11,7 +11,9 @@ import img10 from '../../assets/img10.png';
 import img8 from '../../assets/img8.png';
 import img9 from '../../assets/img9.png';
 import img11 from '../../assets/img11.png';
+import img12 from '../../assets/img12.png';
 import img13 from '../../assets/img13.jpg';
+import img14 from '../../assets/img14.png';
 import { useState } from 'react';
 
 const cards = [
@@ -23,6 +25,16 @@ const cards = [
     links: [
       { text: 'Demo', url: 'https://restaurante-fullstack.vercel.app/' },
       { text: 'Code', url: 'https://github.com/VitorLucasX/restaurante_fullstack' }
+    ]
+  },
+  {
+    id: 14,
+    img: img14,
+    title: 'Dashboard',
+    category: 'frontend',
+    links: [
+      { text: 'Demo', url: 'https://dashboard-react-indol.vercel.app/' },
+      { text: 'Code', url: 'https://github.com/VitorLucasX/dashboard_react' }
     ]
   },
   {
@@ -83,6 +95,15 @@ const cards = [
     links: [
       { text: 'Demo', url: 'https://pomodoro-react-typescript-sass.vercel.app/' },
       { text: 'Code', url: 'https://github.com/VitorLucasX/pomodoro_react_typescript_sass' }
+    ]
+  },
+  {
+    id: 13,
+    img: img12,
+    title: 'Picpay transaction',
+    category: 'backend',
+    links: [
+      { text: 'Code', url: 'hhttps://github.com/VitorLucasX/picpay-backend' }
     ]
   },
   {
