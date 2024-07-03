@@ -23,8 +23,8 @@ const cards = [
     title: 'Restaurante',
     category: 'fullstack',
     links: [
-      { text: 'Demo', url: 'https://restaurante-fullstack.vercel.app/' },
-      { text: 'Code', url: 'https://github.com/VitorLucasX/restaurante_fullstack' }
+      { text: 'Demo', url: 'https://restaurant-frontend-uq0w.onrender.com/' },
+      { text: 'Code', url: 'https://github.com/VitorLucasX/restaurant_fullstack' }
     ]
   },
   {
