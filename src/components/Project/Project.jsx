@@ -14,9 +14,19 @@ import img11 from '../../assets/img11.png';
 import img12 from '../../assets/img12.png';
 import img13 from '../../assets/img13.jpg';
 import img14 from '../../assets/img14.png';
+import img15 from '../../assets/img15.png';
 import { useState } from 'react';
-
 const cards = [
+  {
+    id: 15,
+    img: img15,
+    title: 'Youtube Clone',
+    category: 'frontend',
+    links: [
+      { text: 'Demo', url: 'https://youtube-clone-mu-inky.vercel.app/' },
+      { text: 'Code', url: 'https://github.com/VitorLucasX/youtube_clone' }
+    ]
+  },
   {
     id: 11,
     img: img11,
